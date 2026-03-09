@@ -20,7 +20,7 @@ musicaFocoInput.addEventListener("change", () => {
 /* Adiciona os eventos de click para cada botão, passando o contexto correspondente para a função de alteração */
 focoBt.addEventListener("click", () => {
   alterarContexto("foco");
-  focoBt.classList.add("aactive");
+  focoBt.classList.add("active");
 });
 
 curtoBt.addEventListener("click", () => {
